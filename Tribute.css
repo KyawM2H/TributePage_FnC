@@ -12,6 +12,7 @@ footer {
 }
 .todayDate {
   text-align: right;
+  color: #006400	;
 }
 p {
   font-family: "Handlee", cursive;
@@ -28,6 +29,7 @@ h3,
 .portrait,
 .lists {
   text-align: center;
+  font-family: 'Grenze', serif;
 }
 ul li {
   text-align: justify;
@@ -39,7 +41,7 @@ ul li {
   list-style-type: disc;
   list-style-position: inside;
 }
-header {
+header h2 {
   text-align: left;
 }
 
@@ -63,7 +65,10 @@ img {
 .desc {
   background: #2f4f4f;
   color: #fff;
+  padding: 3px;
 }
 span {
   color: red;
 }
+
+
