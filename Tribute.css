@@ -1,7 +1,5 @@
-@import
- url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
-@import 
- url('https://fonts.googleapis.com/css?family=Grenze|Libre+Baskerville&display=swap');   
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Grenze|Libre+Baskerville&display=swap");
 
 html {
   box-sizing: border-box;
@@ -12,58 +10,55 @@ footer {
   background: #a9a9a9;
   color: #fff;
 }
-.todayDate{
+.todayDate {
   text-align: right;
-  
 }
-p{
-    font-family: 'Handlee', cursive;
+p {
+  font-family: "Handlee", cursive;
 }
 h1,
 h2,
 h3,
-.photo, .portrait, .lists
- {
+.photo,
+.portrait,
+.lists {
   text-align: center;
 }
-ul li{
-    text-align: justify;
-    margin-left: 27%;
+ul li {
+  text-align: justify;
+  margin-left: 27%;
 }
-ul li{
-    
-    font-family: 'Crimson Text', serif;
-    font-size: 1.1rem;
-    list-style-type: disc;
-    list-style-position: inside;
-    
-    
+ul li {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1rem;
+  list-style-type: disc;
+  list-style-position: inside;
 }
-header{
-    text-align: left;
+header {
+  text-align: left;
 }
 
-img{
+img {
   border: 2px solid #0ad2d2;
 }
-.photo img{
-    height: 35rem;
-    width: 50%;
-    
+.photo img {
+  height: 35rem;
+  width: 50%;
 }
-.group_photo{
-    width: 50%;
-    height: auto;
-    text-align: center;
+.group_photo {
+  width: 50%;
+  height: auto;
+  text-align: center;
 }
-.traditional_dress, .group_photo{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.traditional_dress,
+.group_photo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .desc {
   background: #2f4f4f;
   color: #fff;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
