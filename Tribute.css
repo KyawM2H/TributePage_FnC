@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze|Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");
 
 html {
-  box-sizing: border-box;
+
+    box-sizing: border-box;
 }
+
 header,
 footer {
-  text-align: center;
-  background: #a9a9a9;
-  color: #fff;
+    text-align: center;
+    background: #a9a9a9;
+    color: #fff;
 }
+
 .todayDate {
-  text-align: right;
-  color: #006400	;
+    text-align: right;
+    color: #006400;
 }
+
 hr {
     border: none;
     border-top: 3px double #333;
@@ -31,62 +36,119 @@ hr:after {
     position: relative;
     top: -19px;
 }
+
 p {
-  font-family: "Handlee", cursive;
+    font-family: "Handlee", cursive;
 }
+
 .subhead::first-letter {
     font-size: 200%;
     color: #8A2BE2;
     font-family: 'Libre Baskerville', serif;
-  }
+}
+
+
 h1,
 h2,
 h3,
 .photo,
-.portrait,
 .lists {
-  text-align: center;
-  font-family: 'Grenze', serif;
+    text-align: center;
+    font-family: 'Grenze', serif;
 }
+
+.portrait {
+    border: thin #333 solid;
+    padding: 3px;
+    max-width: fit-content;
+    margin: auto;
+    display: block;
+}
+
+.seq {
+    font-family: 'Cormorant Infant', serif;
+}
+
 ul li {
-  text-align: justify;
-  margin-left: 27%;
+    text-align: justify;
+    margin-left: 27%;
 }
+
 ul li {
-  font-family: "Crimson Text", serif;
-  font-size: 1.1rem;
-  list-style-type: disc;
-  list-style-position: inside;
+    font-family: "Crimson Text", serif;
+    font-size: 1.1rem;
+    list-style-type: disc;
+    list-style-position: inside;
 }
+
 header h2 {
-  text-align: left;
-  margin-left: 1rem;
+    text-align: left;
+    margin-left: 1rem;
 }
 
 img {
-  border: 2px solid #0ad2d2;
+    border: 2px solid #0ad2d2;
 }
+
 .photo img {
-  height: 35rem;
-  width: 50%;
+    height: 35rem;
+    width: 50%;
 }
+
 .group_photo {
-  width: 50%;
-  height: auto;
-  text-align: center;
+    width: 50%;
+    height: auto;
+    text-align: center;
 }
+
 .traditional_dress,
 .group_photo {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 .desc {
-  background: #2f4f4f;
-  color: #fff;
-  padding: 3px;
+    background: #2f4f4f;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+
 }
+
 span {
-  color: red;
+    color: red;
 }
 
 
+@media screen and (max-width: 768px) {
+    img {
+        min-width: 350px;
+        max-height: 450px;
+    }
+
+    ul li {
+        margin-left: -5%;
+
+    }
+
+    ul li {
+        padding-right: 18px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    img {
+        min-width: 50%;
+        max-height: 450px;
+    }
+
+    ul li {
+        margin-left: auto;
+
+    }
+
+}
