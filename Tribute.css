@@ -16,6 +16,11 @@ footer {
 p {
   font-family: "Handlee", cursive;
 }
+.subhead::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+    font-family: 'Libre Baskerville', serif;
+  }
 h1,
 h2,
 h3,
